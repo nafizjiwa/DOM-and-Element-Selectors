@@ -52,3 +52,13 @@
 
   <img width="202" height="46" alt="welcome jack" src="https://github.com/user-attachments/assets/7a133717-8ae0-4570-9d05-1f3a4cf6f308" />
 
+## Element Selectors
+- Methods use to target and manipulate HTML elements
+- They allow you to select one or multiple HTML elements from the DOM
+
+          1. document.getElementById(); --> Returns ELEMENT or NULL
+          2. document.getElementsClassName() --> Returns an HTML COLLECTION
+          3. document.getElementByTagName() --> Returns an HTML COLLECTION
+          4. document.querySelector()    --> Returns an ELEMENT or NULL
+          5. document.querySelectorAll() --> Returns a NODELIST
+
