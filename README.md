@@ -22,7 +22,8 @@
 
 - Javascript can access the DOM to dynamically change the content, structure, and style of a web page
 - Consoling document gives an object with properties
-  - console.log(document);
+
+      console.log(document);
 - Like any other object to access the object and its properties we the objects name = document.
 - This allows us to dynamically change any properties without css
 
