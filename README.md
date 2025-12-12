@@ -3,7 +3,6 @@
 - An object that represents the page you in the web browswer which provides you with an API to interact with it.
 - Web Browser constructs the DOM when it loads an HTML document
 - It structures all the elements in a tree like representation
-- Javascript can access the DOM to dynamically change the content, structure, and style of a web page
 ```
     <DOCTYPE html>
     <html lang='en'>
@@ -19,25 +18,23 @@
       <script></script>
     </body>
 ```
-
-
 <img width="275" height="321" alt="dom" src="https://github.com/user-attachments/assets/74a5f79d-9273-4ee0-a75b-b8ee3bde3e61" />
-
-- document will console as an object with properties
+- Javascript can access the DOM to dynamically change the content, structure, and style of a web page
+- Consoling document gives an object with properties
   - console.log(document);
-- We can access different properties and methods of this object using the word document, just like any other object.
-- This can allow us to dynamically change any properties with css
+- Like any other object to access the object and its properties we the objects name = document.
+- This allows us to dynamically change any properties without css
 
-  console.log(document.title); --> prints My title
+      console.log(document.title); --> prints My title
 - If we change it --> document.title = 'My Website';
 
-  console.log(document.title); --> printes My Website
+      console.log(document.title); --> printes My Website
 - Find the document background color
 
-  console.log(document.body.style.backgroundColor); --> prints white
-We can change it with document.body.style.backgroundColor = 'black';
+      console.log(document.body.style.backgroundColor); --> prints white
+- We can change it with document.body.style.backgroundColor = 'black';
 
-  console.log(document.body.style.backgroundColor); --> prints black
+      console.log(document.body.style.backgroundColor); --> prints black
 - To access the object properties use dot model.
 - Another Example
 - A webpage title looks like this:
