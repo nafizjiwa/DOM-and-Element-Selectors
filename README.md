@@ -70,6 +70,19 @@
 <div class="fruits">Apple</div>
 <div class="fruits">Orange</div>
 <div class="fruits">Banana</div>
+
+<h4>Root Vegtables</h4>
+<ul>
+  <li>Beets</li>
+  <li>Carrots</li>
+  <li>Potatoes</li>
+</ul>
+<h4>Non-Root Vegtables</h4>
+<ul>
+  <li>Broccoli</li>
+  <li>Celery</li>
+  <li>Onions</li>
+</ul>
 ```
 
 ##### Web Page Output
@@ -109,3 +122,8 @@ console.log(fruits);
 fruits[0].style.backgroundColor = "yellow";
 ```
 <img width="158" height="189" alt="fruitH" src="https://github.com/user-attachments/assets/1dd37a47-3921-4e49-81c2-a40017ac8446" />
+
+##### 3. document.getElementByTagName() --> Returns an HTML COLLECTION
+
+##### 4. document.querySelector()    --> Returns an ELEMENT or NULL
+##### 5. document.querySelectorAll() --> Returns a NODELIST
