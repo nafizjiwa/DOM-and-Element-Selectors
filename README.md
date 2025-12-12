@@ -19,6 +19,7 @@
     </body>
 ```
 <img width="275" height="321" alt="dom" src="https://github.com/user-attachments/assets/74a5f79d-9273-4ee0-a75b-b8ee3bde3e61" />
+
 - Javascript can access the DOM to dynamically change the content, structure, and style of a web page
 - Consoling document gives an object with properties
   - console.log(document);
