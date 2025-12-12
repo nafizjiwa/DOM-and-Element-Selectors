@@ -45,9 +45,9 @@
 - We can access the title or the h1 element dynamically and conditionally change it.
 - First get the h1 element by getting the id of the element
   
-    const username = 'Jack';
-    const welcoming = document.getElementById('welcome-msg');
-    wecomeMsg.textContent += username === "" ? 'Guest' : username;
+     const username = 'Jack';
+     const welcoming = document.getElementById('welcome-msg');
+     wecomeMsg.textContent += username === "" ? 'Guest' : username;
 - Webpage now looks like:
 
   <img width="202" height="46" alt="welcome jack" src="https://github.com/user-attachments/assets/7a133717-8ae0-4570-9d05-1f3a4cf6f308" />
@@ -65,18 +65,25 @@
 ### Example
 #### HTML
 ```
-<h1>Love Food</h1>
+<h1 id="my-heading">Love Food</h1>
+
+<div class="fruits">Apple</div>
+<div class="fruits">Orange</div>
+<div class="fruits">Banana</div>
 ```
+
 ##### Web Page Output
 <img width="176" height="54" alt="food" src="https://github.com/user-attachments/assets/6a0936b5-4d00-45ae-8f93-ddafe380560e" />
 
+#### Manipulate or Change Elements
+###### 1. document.getElementById() --> Returns ELEMENT or NULL
 ```
 const myHeading = document.getElementById('my-heading');
 myHeading.style.backgroundColor = "yellow";
 myHeading.style.textAlign = 'center';
 ```
 ##### Web Page Output
-<img width="173" height="67" alt="yellow food" src="https://github.com/user-attachments/assets/e653d7a0-abd5-4025-8b0b-439f68e4c2b6" />
+<img width="778" height="97" alt="food" src="https://github.com/user-attachments/assets/0f70b2a4-11e9-48fd-9a56-ee866ff8ad8e" />
 </br>
 - Console the Element </br>
 <img width="177" height="39" alt="console1" src="https://github.com/user-attachments/assets/5ffba90f-3252-4d28-8002-a2a765ae0c0a" /> 
@@ -84,4 +91,20 @@ myHeading.style.textAlign = 'center';
 - Results </br>
 <img width="305" height="99" alt="console" src="https://github.com/user-attachments/assets/61f82b55-6a91-466a-b021-501e43c61477" />
 </br>
+<img width="108" height="40" alt="nul" src="https://github.com/user-attachments/assets/060c9056-32b0-47f0-8ae1-f67284fd3b4b" />
+</br>
 
+##### 2. document.getElementsByClassName() --> Returns an HTML COLLECTION
+```
+const fruits = document.getElementyByClassName("fruits");
+console.log(fruits);
+```
+<img width="191" height="120" alt="collection" src="https://github.com/user-attachments/assets/3bbea536-b9b5-42ac-88b3-36d1e0426620" />
+
+- Change an element
+  <img width="243" height="181" alt="fruits" src="https://github.com/user-attachments/assets/f27634e2-1e70-4447-86ef-916f72b8498a" />
+
+```
+fruits[0].style.backgroundColor = "yellow";
+```
+<img width="158" height="189" alt="fruitH" src="https://github.com/user-attachments/assets/1dd37a47-3921-4e49-81c2-a40017ac8446" />
