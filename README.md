@@ -57,7 +57,7 @@
 - They allow you to select one or multiple HTML elements from the DOM
 
        1. document.getElementById(); --> Returns ELEMENT or NULL
-       2. document.getElementsClassName() --> Returns an HTML COLLECTION
+       2. document.getElementsByClassName() --> Returns an HTML COLLECTION
        3. document.getElementByTagName() --> Returns an HTML COLLECTION
        4. document.querySelector()    --> Returns an ELEMENT or NULL
        5. document.querySelectorAll() --> Returns a NODELIST
