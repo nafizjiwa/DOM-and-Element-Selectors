@@ -62,10 +62,12 @@
    4. document.querySelector()    --> Returns an ELEMENT or NULL
    5. document.querySelectorAll() --> Returns a NODELIST
 ```
-
+### Example
+#### HTML
 ```
 <h1>Love Food</h1>
 ```
+##### Web Page Output
 <img width="176" height="54" alt="food" src="https://github.com/user-attachments/assets/6a0936b5-4d00-45ae-8f93-ddafe380560e" />
 
 ```
@@ -73,4 +75,13 @@ const myHeading = document.getElementById('my-heading');
 myHeading.style.backgroundColor = "yellow";
 myHeading.style.textAlign = 'center';
 ```
+##### Web Page Output
+<img width="173" height="67" alt="yellow food" src="https://github.com/user-attachments/assets/e653d7a0-abd5-4025-8b0b-439f68e4c2b6" />
+</br>
+- Console the Element </br>
+<img width="177" height="39" alt="console1" src="https://github.com/user-attachments/assets/5ffba90f-3252-4d28-8002-a2a765ae0c0a" /> 
+</br>
+- Results </br>
+<img width="305" height="99" alt="console" src="https://github.com/user-attachments/assets/61f82b55-6a91-466a-b021-501e43c61477" />
+</br>
 
