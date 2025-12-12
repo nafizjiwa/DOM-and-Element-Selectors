@@ -55,10 +55,22 @@
 ## Element Selectors
 - Methods use to target and manipulate HTML elements
 - They allow you to select one or multiple HTML elements from the DOM
+```
+   1. document.getElementById() --> Returns ELEMENT or NULL
+   2. document.getElementsByClassName() --> Returns an HTML COLLECTION
+   3. document.getElementByTagName() --> Returns an HTML COLLECTION
+   4. document.querySelector()    --> Returns an ELEMENT or NULL
+   5. document.querySelectorAll() --> Returns a NODELIST
+```
 
-       1. document.getElementById(); --> Returns ELEMENT or NULL
-       2. document.getElementsByClassName() --> Returns an HTML COLLECTION
-       3. document.getElementByTagName() --> Returns an HTML COLLECTION
-       4. document.querySelector()    --> Returns an ELEMENT or NULL
-       5. document.querySelectorAll() --> Returns a NODELIST
+```
+<h1>Love Food</h1>
+```
+<img width="176" height="54" alt="food" src="https://github.com/user-attachments/assets/6a0936b5-4d00-45ae-8f93-ddafe380560e" />
+
+```
+const myHeading = document.getElementById('my-heading');
+myHeading.style.backgroundColor = "yellow";
+myHeading.style.textAlign = 'center';
+```
 
