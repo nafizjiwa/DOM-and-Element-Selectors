@@ -102,6 +102,7 @@ console.log(fruits);
 <img width="191" height="120" alt="collection" src="https://github.com/user-attachments/assets/3bbea536-b9b5-42ac-88b3-36d1e0426620" />
 
 - Change an element
+- 
   <img width="243" height="181" alt="fruits" src="https://github.com/user-attachments/assets/f27634e2-1e70-4447-86ef-916f72b8498a" />
 
 ```
