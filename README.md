@@ -124,6 +124,13 @@ fruits[0].style.backgroundColor = "yellow";
 <img width="158" height="189" alt="fruitH" src="https://github.com/user-attachments/assets/1dd37a47-3921-4e49-81c2-a40017ac8446" />
 
 ##### 3. document.getElementByTagName() --> Returns an HTML COLLECTION
+-Highlight all the h4 elements
+const h4Elements = document.getElementsByTagName('h4');
+for(let h4Element of h4Element){
+    h4Element.style.backgroundColor = 'yellow';
+}
+<img width="158" height="189" alt="fruitH" src="https://github.com/user-attachments/assets/7cf826bd-58a8-48cc-af50-20c0221a014a" />
 
 ##### 4. document.querySelector()    --> Returns an ELEMENT or NULL
+
 ##### 5. document.querySelectorAll() --> Returns a NODELIST
