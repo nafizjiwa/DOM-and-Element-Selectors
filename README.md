@@ -151,14 +151,17 @@ element.style.backgroundColor = "yellow";
 
 ##### 5. document.querySelectorAll() --> Returns a NODELIST
 ```
-const fruits = document.querySelectorAll(".fruits"); --> A LIST OF NODES WITH CLASS .fruits
-===> now have access to each node, so access first node in list
+const fruits = document.querySelectorAll(".fruits");
+        --> RETURNS A LIST OF NODES ALL OF CLASS .fruits
+===> now have access to each node, so Ttoaccess first node in list
 fruits[1].style.background = 'yellow';
 ```
 <img width="74" height="64" alt="orange" src="https://github.com/user-attachments/assets/8d07fb38-c7ae-43f0-b7e7-f9976c273a84" />
 
 ```
-const foods = document.querySelectorAll("li"); --> A LIST OF NODES OF ALL LIST ELEMENTS
+const foods = document.querySelectorAll("li");
+    --> RETURNS A LIST OF NODES OF ALL LIST ELEMENTS
+==> Access first list element
 foods[0].style.background = 'yellow';
 ```
 <img width="98" height="174" alt="foods" src="https://github.com/user-attachments/assets/2aa149f1-bb7f-4fae-a2e7-1692549027a2" />
