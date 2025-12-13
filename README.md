@@ -59,8 +59,9 @@
    1. document.getElementById() --> Returns ELEMENT or NULL
    2. document.getElementsByClassName() --> Returns an HTML COLLECTION
    3. document.getElementByTagName() --> Returns an HTML COLLECTION
-   4. document.querySelector()    --> Returns the first ELEMENT or NULL
+   4. document.querySelector()    --> Returns the first ELEMENT or NULL(no match)
    5. document.querySelectorAll() --> Returns a NODELIST
+        - NODELIST - A COLLECTION OF DOM NODES (like arrays have methods)
 ```
 ### Example
 #### HTML
@@ -133,6 +134,21 @@ for(let h4Element of h4Element){
 ```
 <img width="121" height="235" alt="veg" src="https://github.com/user-attachments/assets/eccb3d5a-8067-466f-935b-9bfab55297a3" />
 
-##### 4. document.querySelector()    --> Returns the first ELEMENT or NULL
+##### 4. document.querySelector()    --> Returns the first matching ELEMENT or NULL (no match)
+###### - Return the first element with class .fruits
+```
+const element = document.querySelector('.fruits');
+element.style.backgroundColor = "yellow";
+```
+<img width="158" height="189" alt="fruitH" src="https://github.com/user-attachments/assets/e52da488-077a-4743-9eb4-8bfa3a56b909" />
+
+###### - Return the first element of tagName (element ul)
+```
+const element = document.querySelector('ul');
+element.style.backgroundColor = "yellow";
+```
+<img width="115" height="165" alt="tag" src="https://github.com/user-attachments/assets/a7dc8c19-4ad2-44f5-9bde-a3e6e65fc4e9" />
 
 ##### 5. document.querySelectorAll() --> Returns a NODELIST
+const fruits = document.querySelectorAll(".fruits"); --> 
+
