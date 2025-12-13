@@ -59,7 +59,7 @@
    1. document.getElementById() --> Returns ELEMENT or NULL
    2. document.getElementsByClassName() --> Returns an HTML COLLECTION
    3. document.getElementByTagName() --> Returns an HTML COLLECTION
-   4. document.querySelector()    --> Returns an ELEMENT or NULL
+   4. document.querySelector()    --> Returns the first ELEMENT or NULL
    5. document.querySelectorAll() --> Returns a NODELIST
 ```
 ### Example
@@ -125,12 +125,14 @@ fruits[0].style.backgroundColor = "yellow";
 
 ##### 3. document.getElementByTagName() --> Returns an HTML COLLECTION
 -Highlight all the h4 elements
+```
 const h4Elements = document.getElementsByTagName('h4');
 for(let h4Element of h4Element){
     h4Element.style.backgroundColor = 'yellow';
 }
-<img width="158" height="189" alt="fruitH" src="https://github.com/user-attachments/assets/7cf826bd-58a8-48cc-af50-20c0221a014a" />
+```
+<img width="121" height="235" alt="veg" src="https://github.com/user-attachments/assets/eccb3d5a-8067-466f-935b-9bfab55297a3" />
 
-##### 4. document.querySelector()    --> Returns an ELEMENT or NULL
+##### 4. document.querySelector()    --> Returns the first ELEMENT or NULL
 
 ##### 5. document.querySelectorAll() --> Returns a NODELIST
